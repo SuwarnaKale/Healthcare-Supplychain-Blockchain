@@ -123,7 +123,7 @@ app.post('/users', awaitHandler(async (req, res) => {
 	}
 }));
 
-// POST Manufacturer
+// POST Manufacturer1
 app.post('/manufacturer', awaitHandler(async (req, res) => {
 	logger.info('================ POST on Manufacturer');
 	var args = req.body;
